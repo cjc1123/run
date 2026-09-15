@@ -1,0 +1,33 @@
+# === 大文件：模型权重与数据（GitHub 单文件上限 100MB，全部排除）===
+# 这些文件已托管在 Hugging Face：https://huggingface.co/cjccjc/run
+model_files/
+pretrained_models/
+*.pth
+*.pkl
+*.npz
+*.onnx
+*.pt
+*.bin
+output.zip
+pytorch3d-0.7.0.zip
+
+# === Python 缓存与虚拟环境 ===
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# === 训练输出与日志 ===
+runs/
+new-runs/
+*.log
+wandb/
+checkpoints/
+
+# === 系统与编辑器 ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
