@@ -1,0 +1,8 @@
+﻿torch>=1.9.0
+torchvision>=0.10.0
+numpy>=1.21.0
+opencv-python>=4.5.0
+matplotlib>=3.3.0  # 用于绘制对比曲线和可视化
+scipy>=1.7.0       # 可能用于科学计算或IO
+tqdm>=4.60.0       # 可能用于显示进度条
+pickle5; python_version < '3.8'  # 如果Python版本低于3.8可能需要

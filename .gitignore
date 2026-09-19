@@ -19,9 +19,7 @@ __pycache__/
 venv/
 env/
 
-# === 训练输出与日志 ===
-runs/
-new-runs/
+# === 训练日志与 wandb 输出 ===
 *.log
 wandb/
 checkpoints/
